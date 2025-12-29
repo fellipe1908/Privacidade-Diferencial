@@ -333,7 +333,6 @@
     {
       "cell_type": "code",
       "source": [
-        "# funcao auxiliar para calcular acuracia\n",
         "def acuracia(pred, y_target):\n",
         "    return sum(pred == y_target)/len(y_target)\n",
         "\n",
